@@ -1,0 +1,24 @@
+{
+  "name": "epogue-palindrome",
+  "version": "0.1.0",
+  "description": "Palindrome detector",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericpogue/palindrome.git"
+  },
+  "keywords": [
+    "palindrome",
+    "learn-enough",
+    "javascript"
+  ],
+  "author": "Eric Pogue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericpogue/palindrome/issues"
+  },
+  "homepage": "https://github.com/ericpogue/palindrome#readme"
+}
