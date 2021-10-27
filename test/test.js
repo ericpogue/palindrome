@@ -17,6 +17,11 @@ describe("Phrase", function () {
       });
     });
 
+    it("should return the empty string only on no match", function () {
+      let noLetters = new Phrase("1234.56");
+      assert.strictEqual(noLetters.letters(), "");
+    });
+
     it("should return true for a palindrome", function () {
       let plainPalindrome = new Phrase("racecar");
       assert(plainPalindrome.palindrome());
