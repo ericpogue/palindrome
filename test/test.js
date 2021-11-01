@@ -9,6 +9,11 @@ describe("Phrase", function () {
       assert(!nonPalindrome.palindrome());
     });
 
+    it("should return false for an empty string", function () {
+      let emptyPhrase = new Phrase("");
+      assert(!emptyPhrase.palindrome());
+    });
+
     // Letters#pailndrome
     describe("#letters", function () {
       it("should return only letters", function () {
